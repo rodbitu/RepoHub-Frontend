@@ -19,6 +19,7 @@ const AppRoutes = () => {
     if (loading) {
       return <div className='loading'>Carregando...</div>;
     }
+    console.log('tes', authenticated);
 
     if (!authenticated) {
       return <Navigate to='/login' />;
@@ -31,6 +32,7 @@ const AppRoutes = () => {
     <Router>
       <AuthProvider>
         <Routes>
+          <Route exact path='/login' element={<LoginPage />} />
           <Route
             exact
             path='/'
@@ -40,7 +42,6 @@ const AppRoutes = () => {
               </Private>
             }
           />
-          <Route exact path='/login' element={<LoginPage />} />
         </Routes>
       </AuthProvider>
     </Router>

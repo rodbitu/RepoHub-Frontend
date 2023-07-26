@@ -31,6 +31,7 @@ const Repositories = ({ repositories, onDeleteRepo, onNewRepo }) => {
           id='new-repo'
           value={newRepo}
           onChange={(e) => setNewRepo(e.target.value)}
+          placeholder='Ex: https://github.com/teste/teste'
         />
         <button onClick={() => onNewRepo(newRepo)}>Adicionar</button>
       </div>

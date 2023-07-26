@@ -15,6 +15,7 @@ const LoginPage = () => {
 
   return (
     <div id='login'>
+      <h1 className='RepoHub'>RepoHub</h1>
       <h1 className='title'>Login</h1>
       <div className='form'>
         <div className='field'>
