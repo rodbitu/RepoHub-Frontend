@@ -1,30 +1,33 @@
-<h1 align="center">RepoHub</h1>
+# <h1 align="center">RepoHub</h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=Language&message=React&color=8257E5&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=Version&message=1.0&color=8257E5&labelColor=000000">
 </p>
 
 <br>
 
-## ✨ Tecnologias
+## ✨ Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using the following technologies:
 
 - [React.js](https://react.dev/)
 - [React Router](https://reactrouter.com/en/main)
 - [Axios](https://axios-http.com/ptbr/)
 
-## 💻 Projeto
+## 💻 Project
 
-RepoHub é uma plataforma online que permite aos usuários organizarem seus repositórios de forma rápida e fácil.
+RepoHub is an online platform that allows users to organize their repositories quickly and easily.
 
-## 🚀 Como executar
+## 🚀 How to run
 
-- Clone o repositório
-- Rode o `npm run start` para iniciar a aplicação.
+- Clone the repository
+- Run `npm run start` to start the application.
 
-Por fim, a aplicação estará disponível em `http://localhost:3000`
+Finally, the application will be available at `http://localhost:3000`
 
-## 📄 Licença
+## 📄 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+
